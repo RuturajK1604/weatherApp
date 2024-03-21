@@ -10,7 +10,7 @@ import humidity_icon from "./Images/humidity.png";
 import wind_icon from "./Images/wind.png";
 
 export const WeatherApp = () => {
-  let API_KEY = "f2d9df3917db84e5c97ee17ff5d71bee";
+  let API_KEY = ""; // NEED TO CREATE PERSONAL API KEY FROM OPENWEATHER.COM
 
   const [cityName, setCityName] = useState("");
 
